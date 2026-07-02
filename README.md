@@ -1,21 +1,40 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-## 📌 Project Overview
-
-This project predicts whether a patient is likely to have heart disease using Machine Learning. It is built with **Python**, **Scikit-learn**, and **Streamlit**.
-
-The application accepts patient medical information as input and predicts whether the patient has heart disease.
+A Machine Learning web application that predicts whether a patient is likely to have heart disease based on medical parameters. The project is built using **Python**, **Scikit-learn**, and **Streamlit**.
 
 ---
 
-## 🚀 Features
+## 🌐 Live Demo
 
-- Heart Disease Prediction
-- User-friendly Streamlit Web Application
-- Machine Learning Model (Logistic Regression)
-- Feature Scaling using StandardScaler
-- Fast and Accurate Predictions
-- Easy to Deploy
+**Coming Soon** *(Add your Streamlit URL after deployment)*
+
+Example:
+
+https://heart-disease-prediction.streamlit.app
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/YOUR_GITHUB_USERNAME/heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi
+
+---
+
+## 📖 Project Overview
+
+This application uses a trained Logistic Regression model to predict heart disease from patient information. Users enter medical details through a Streamlit interface and receive an instant prediction.
+
+---
+
+## ✨ Features
+
+- ❤️ Heart Disease Prediction
+- 📊 Machine Learning Model
+- 🎯 Logistic Regression Algorithm
+- 📈 Feature Scaling with StandardScaler
+- 🖥️ Interactive Streamlit Web App
+- ⚡ Fast Predictions
+- 📱 Simple and User-Friendly Interface
 
 ---
 
@@ -27,6 +46,8 @@ The application accepts patient medical information as input and predicts whethe
 - Scikit-learn
 - Streamlit
 - Joblib
+- Matplotlib
+- Seaborn
 
 ---
 
@@ -48,24 +69,26 @@ heart-disease/
 
 ## 📊 Dataset Features
 
-- Age
-- Sex
-- Chest Pain Type
-- Resting Blood Pressure
-- Cholesterol
-- Fasting Blood Sugar
-- Resting ECG
-- Maximum Heart Rate
-- Exercise Induced Angina
-- Oldpeak
-- Slope
-- Number of Major Vessels
-- Thal
+| Feature | Description |
+|---------|-------------|
+| Age | Age of the patient |
+| Sex | Gender (0 = Female, 1 = Male) |
+| CP | Chest Pain Type |
+| Trestbps | Resting Blood Pressure |
+| Chol | Cholesterol |
+| FBS | Fasting Blood Sugar |
+| RestECG | Resting ECG Results |
+| Thalach | Maximum Heart Rate |
+| Exang | Exercise Induced Angina |
+| Oldpeak | ST Depression |
+| Slope | Slope of Peak Exercise ST Segment |
+| CA | Number of Major Vessels |
+| Thal | Thalassemia |
 
-Target
+### Target
 
-- 0 → No Heart Disease
-- 1 → Heart Disease
+- **0** → No Heart Disease
+- **1** → Heart Disease
 
 ---
 
@@ -77,46 +100,46 @@ Target
 4. Feature Selection
 5. Train-Test Split
 6. Feature Scaling
-7. Logistic Regression Model Training
+7. Model Training
 8. Model Evaluation
 9. Save Model
 10. Streamlit Deployment
 
 ---
 
-## 📈 Model Used
+## 🤖 Machine Learning Model
 
 - Logistic Regression
 
-Evaluation Metrics
+### Evaluation Metrics
 
 - Accuracy Score
-- Classification Report
 - Confusion Matrix
+- Classification Report
 
 ---
 
-## ▶️ Installation
+## 🚀 Installation
 
-Clone the repository
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/heart-disease-prediction.git
-```
-
-Move into the project folder
+Clone the repository:
 
 ```bash
-cd heart-disease-prediction
+git clone https://github.com/YOUR_GITHUB_USERNAME/heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi.git
 ```
 
-Install dependencies
+Go to the project directory:
+
+```bash
+cd heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+Run the application:
 
 ```bash
 streamlit run app.py
@@ -124,7 +147,7 @@ streamlit run app.py
 
 ---
 
-## 💻 Example Input
+## 💻 Sample Input
 
 | Feature | Value |
 |---------|------:|
@@ -139,32 +162,33 @@ streamlit run app.py
 | Exercise Induced Angina | 0 |
 | Oldpeak | 2.3 |
 | Slope | 0 |
-| Number of Major Vessels | 0 |
+| CA | 0 |
 | Thal | 1 |
 
 ---
 
-## 📷 Application Screenshot
+## 📷 Screenshots
 
-Add screenshots here after deployment.
+Add screenshots after deployment.
 
 Example:
 
 ```
 screenshots/home.png
+
 screenshots/result.png
 ```
 
 ---
 
-## 🎯 Future Improvements
+## 🔮 Future Enhancements
 
 - Random Forest Model
 - XGBoost Model
 - Better UI Design
 - Prediction Probability
 - Model Comparison
-- Cloud Deployment
+- Docker Deployment
 
 ---
 
@@ -172,12 +196,14 @@ screenshots/result.png
 
 **Tamilselvan**
 
-B.Tech Information Technology
+B.Tech – Information Technology
 
 Dr. Mahalingam College of Engineering and Technology
+
+GitHub: https://github.com/YOUR_GITHUB_USERNAME
 
 ---
 
 ## 📄 License
 
-This project is developed for educational and learning purposes.
+This project is intended for educational and learning purposes.
