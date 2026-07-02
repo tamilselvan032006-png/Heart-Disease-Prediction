@@ -1,40 +1,31 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-A Machine Learning web application that predicts whether a patient is likely to have heart disease based on medical parameters. The project is built using **Python**, **Scikit-learn**, and **Streamlit**.
-
----
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live-red.svg)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange.svg)](https://scikit-learn.org/)
 
 ## 🌐 Live Demo
 
-**Coming Soon** *(Add your Streamlit URL after deployment)*
-
-Example:
-
-https://heart-disease-prediction.streamlit.app
+🔗 **https://heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi.streamlit.app/**
 
 ---
 
-## 📂 GitHub Repository
+## 📌 Project Overview
 
-https://github.com/YOUR_GITHUB_USERNAME/heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi
+The **Heart Disease Prediction System** is a Machine Learning web application that predicts whether a patient is likely to have heart disease based on medical information.
 
----
-
-## 📖 Project Overview
-
-This application uses a trained Logistic Regression model to predict heart disease from patient information. Users enter medical details through a Streamlit interface and receive an instant prediction.
+The project is developed using **Python**, **Scikit-learn**, and **Streamlit**. It provides a simple and interactive interface where users can enter patient details and receive an instant prediction.
 
 ---
 
 ## ✨ Features
 
-- ❤️ Heart Disease Prediction
-- 📊 Machine Learning Model
-- 🎯 Logistic Regression Algorithm
-- 📈 Feature Scaling with StandardScaler
-- 🖥️ Interactive Streamlit Web App
-- ⚡ Fast Predictions
-- 📱 Simple and User-Friendly Interface
+- ❤️ Predicts Heart Disease
+- 📊 Interactive Streamlit Web App
+- 🤖 Logistic Regression Machine Learning Model
+- 📈 Feature Scaling using StandardScaler
+- ⚡ Instant Prediction
+- 🌐 Deployed on Streamlit Community Cloud
 
 ---
 
@@ -69,23 +60,21 @@ heart-disease/
 
 ## 📊 Dataset Features
 
-| Feature | Description |
-|---------|-------------|
-| Age | Age of the patient |
-| Sex | Gender (0 = Female, 1 = Male) |
-| CP | Chest Pain Type |
-| Trestbps | Resting Blood Pressure |
-| Chol | Cholesterol |
-| FBS | Fasting Blood Sugar |
-| RestECG | Resting ECG Results |
-| Thalach | Maximum Heart Rate |
-| Exang | Exercise Induced Angina |
-| Oldpeak | ST Depression |
-| Slope | Slope of Peak Exercise ST Segment |
-| CA | Number of Major Vessels |
-| Thal | Thalassemia |
+- Age
+- Sex
+- Chest Pain Type
+- Resting Blood Pressure
+- Cholesterol
+- Fasting Blood Sugar
+- Resting ECG
+- Maximum Heart Rate
+- Exercise Induced Angina
+- Oldpeak
+- Slope
+- Number of Major Vessels (CA)
+- Thal
 
-### Target
+### Target Variable
 
 - **0** → No Heart Disease
 - **1** → Heart Disease
@@ -100,18 +89,20 @@ heart-disease/
 4. Feature Selection
 5. Train-Test Split
 6. Feature Scaling
-7. Model Training
+7. Logistic Regression Model
 8. Model Evaluation
-9. Save Model
-10. Streamlit Deployment
+9. Save Model (`model.pkl`)
+10. Deploy with Streamlit
 
 ---
 
 ## 🤖 Machine Learning Model
 
+**Algorithm Used**
+
 - Logistic Regression
 
-### Evaluation Metrics
+**Evaluation**
 
 - Accuracy Score
 - Confusion Matrix
@@ -121,29 +112,37 @@ heart-disease/
 
 ## 🚀 Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi.git
 ```
 
-Go to the project directory:
+Go to the project folder
 
 ```bash
 cd heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run the application
 
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## 🌍 Live Application
+
+**Streamlit Cloud**
+
+https://heart-disease-prediction-qh9csh2qcanhfvrkrvvnzi.streamlit.app/
 
 ---
 
@@ -167,28 +166,15 @@ streamlit run app.py
 
 ---
 
-## 📷 Screenshots
-
-Add screenshots after deployment.
-
-Example:
-
-```
-screenshots/home.png
-
-screenshots/result.png
-```
-
----
-
 ## 🔮 Future Enhancements
 
 - Random Forest Model
 - XGBoost Model
-- Better UI Design
 - Prediction Probability
+- Better User Interface
 - Model Comparison
 - Docker Deployment
+- User Authentication
 
 ---
 
@@ -200,10 +186,14 @@ B.Tech – Information Technology
 
 Dr. Mahalingam College of Engineering and Technology
 
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub!
 
 ---
 
 ## 📄 License
 
-This project is intended for educational and learning purposes.
+This project is created for educational and learning purposes.
